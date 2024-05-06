@@ -1,0 +1,381 @@
+body{
+    margin: 0;
+}
+
+/*navbar...*/
+nav{
+  border: 2px;
+  background: white;
+  height: 50px;
+  }
+
+.trattini img{
+  padding: 12px;
+  height: 25px;
+}
+
+.logojenny img{
+  position: relative;
+  top: -54px;
+  height: 53px;
+  left: 60px;
+}
+
+.serch img{
+  position: relative;
+  top: -95px;
+  height: 22px;
+  left: 1405px;
+  
+}
+
+.profilo img{
+  position: relative;
+  top: -125px;
+  height: 25px;
+  left: 1440px;
+ }
+
+.carrello img{
+  position: relative;
+  top: -153.5px;
+  height: 25px;
+  left: 1475px;
+}
+
+/*...navbar*/
+
+
+
+
+
+
+
+/*box-login...*/
+
+.details .box-login{
+  position: absolute;
+  border: 2px solid lightgray;
+  background-color: white;
+  height: 700px;
+  width: 350px;
+}
+
+.hidden {
+  display: none;
+}
+
+/*dentro il box*/
+
+.box-login p{
+  font-size: 1.125rem;
+  font-family: Montserrat;
+  margin: 10px;
+}
+
+/*riquadro di email*/
+.box-login .email{
+border: 2px solid lightgray;
+border-radius: 10px; /* per smussare gli angoli */
+height: 50px;
+margin: 10px;
+}
+
+/*scritta email*/
+.box-login .email p{
+  font-size: 14px;
+}
+
+/*riquadro di password*/
+.box-login .passw{
+  border: 2px solid lightgray;
+  border-radius: 10px; /* per smussare gli angoli */
+  height: 50px;
+  margin: 10px;
+  }
+
+/*scritta password*/
+
+.box-login .passw p{
+  font-size: 14px;
+}
+
+/* riquadro di ACCEDI */  
+
+/*ho inserito il display flex in modo tale da poter spostare la scritta accedi
+ al centro del riquadro, con justify-content*/
+.box-login #flex{
+  display: flex;
+  justify-content: center;
+  border: 2px solid lightgray;
+    height: 48px;
+    margin: 10px;
+    background-color: DarkSlateBlue;
+    
+}
+
+/* scritta ACCEDI*/
+.box-login #flex .login p{
+color: white;
+margin: 12px;
+}
+
+/*linea orizzontale prima di oppure*/
+.box-login .linea1{
+  border: 1px solid black;
+   }
+/* scritta oppure*/
+ .box-login .oppure p{
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+ }
+/* linea orizzontale dopo oppure*/
+ .box-login .linea2{
+  border: 1px solid black;
+   }
+
+/* riquadro di facebook */
+   .box-login #flexbook{
+    display: flex;
+    justify-content: center;
+    border: 2px solid lightgray;
+      height: 48px;
+      margin: 10px;
+      background-color: 		DodgerBlue;
+  }
+/*scritta facebook */
+  .box-login #flexbook .facebook p{
+    color: white;
+    font-size: 16px;
+    margin: 14px;
+   
+    }
+
+/*riquadro invisibile, posizionato tra riquadro facebook e riquadro registrati*/
+
+.box-login .invisibile{
+  justify-content: center;
+  border: 2px solid transparent;
+    height: 220px;
+    margin: 10px;
+    background-color: transparent;
+}
+
+/* riquadro iscrizione */
+.box-login #flex-register .register{
+  display: flex;
+  justify-content: center;
+  border: 2px solid lightgray;
+    height: 48px;
+    margin: 10px;
+    background-color: limegreen;
+    
+}
+/* scritta registrati */
+.box-login #flex-register .register p{
+color: white;
+margin: 12px;
+}
+
+/*.....boxlogin*/
+
+
+
+
+
+
+
+/*header......*/
+
+/* immagine sfondo modelle*/
+header img{
+  display: block;
+  height: 751.8px;
+}
+
+
+.CLICCA-QUI{
+  display: flex;
+  border: 2px ;
+  justify-content: center;
+  height: 158px;
+  margin-top: -225px;
+  }
+
+header .CLICCA-QUI a{
+    font-family: Montserrat;
+    color: white;
+}
+
+
+/*......header*/
+
+
+/*footer 0*/
+.fot0{
+  height: 75px;
+}
+
+/*footer 1*/
+.fot1{
+  background: #DEFAE9;
+  height: 48px;
+}
+
+
+/*footer 2.....*/
+
+.fot2{
+  display: flex;
+  background-color: #B7E8CB;
+  height: 80px;
+}
+.fot2 .cuore{
+  height: 48px;
+  padding: 12px;
+  padding-left: 70px;
+}
+.fot2 .par{
+  padding: 3px;
+  margin-left: 45px;
+  font-family: Montserrat;
+}
+/*riquadro rettangolo 1*/
+.fot2 #rettangoli .rett1{
+  border: 1px solid white;
+  height: 30px;
+  width: 210px;
+  margin: 25px;
+  margin-left: 160px;
+  background: white;
+  
+}
+/*scritta all'interno del rettangolo 1*/
+.fot2 #rettangoli .rett1 p{
+  margin-top: 6px;
+  margin-left: 35px;
+  font-size: 13px;
+  color: lightgray;
+  font-family: Montserrat;
+}
+/* riquadro del rettangolo 2*/
+.fot2 #rettangoli .rett2{
+  border: 1px solid lightgray;
+  height: 30px;
+  width: 32px;
+  margin-left: 372px;
+  margin-top: -56.5px;
+  margin-right: 300px;
+  
+}
+/* scritta all'interno del rettangolo 2*/
+.fot2 #rettangoli .rett2 p{
+  margin-left: 11.5px;
+  margin-top: 6.5px;
+  
+}
+/*link del rettangolo 2*/
+.fot2 #rettangoli .rett2 a{
+  text-decoration: none; /*per togliere la sottolineatura del link/colore violaceo*/
+}
+/* tutte le immaginette dei social*/
+.fot2 #social img{
+  height: 32px;
+  margin-left: 9px;
+  margin-top: 27px;
+}
+
+.fot2 #social a{
+    text-decoration: none; /*per togliere la sottolineatura del link/colore violaceo*/
+}
+/*.....footer 2*/
+
+
+
+/*footer 3*/
+.fot3{
+  background-color: white;
+  height: 40px;
+}
+
+/*mappa.....*/
+
+#map{
+  border: 2px solid gray;
+  height: 500px;
+  width: 500px;
+}
+
+
+
+/* mobile..... */
+
+@media (max-width: 500px) {
+
+.n2 img{
+  margin-left: -750px;
+}
+
+.n3 img{
+  margin-left: -750px;
+}
+.n4 img{
+  margin-left: -750px;
+}
+header{
+  width: 156%;
+  height: 600px;
+  overflow-x: hidden;
+}
+header img{
+  margin-left: -220px;
+  height: 600px;
+ 
+}
+
+.flex-container{
+  margin-left: 0px;
+}
+
+.fot1{
+  overflow-x: hidden;
+  height: 150px;
+  width: 778px;
+}
+
+.fot-container{
+  display: inline-block;
+  width: 778px;
+  height: 170px;
+  overflow-x: hidden;
+
+}
+
+
+.fot3{
+  height: 0px;
+  width: 0px;
+}
+
+.fot-container #fot3{
+  margin-left:500px;
+  margin-top: -150px;
+}
+
+.fot-container #fot2 .rett2{
+position: relative;
+left: 40px;
+top: -60px;
+}
+
+.fot-container #fot2 .rett{
+  position: relative;
+left: 40px;
+top: -60px;
+}
+
+}
+
+
+/*......mobile*/
